@@ -1,0 +1,44 @@
+body, html {
+	background-color: #808080;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: left;
+}
+
+h1 {
+	color: #ffffff;
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 42px;	
+}
+
+h2 {
+	color: ffffff;
+	font-size: 24px;
+	font-family: "Deja Vu", monospace;
+	font weight: normal;
+}
+
+#slogan {
+	font-weight: bold;
+	font-style: italic;
+}
+
+h3	{
+	font-size: 18px;
+	font-family: Arial;
+	color: ffffff;	
+	font-weight: bold;
+}
+.highlight {
+	font-family: "Deja Vu", monospace;
+	font-weight: bold;
+}
+ p {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+ }
+
