@@ -1,20 +1,17 @@
 body, html {
-	background-color: #808080;
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 14px;
-	text-align: left;
+	background: url("http://edurdel.github.io/unit_3/images/background_2.jpg");
+	background-size: cover;
 }
 
 h1 {
-	color: #ffffff;
+	color: #faf8f8;
 	font-weight: normal;
 	font-family: Arial;
 	font-size: 42px;	
 }
 
 h2 {
-	color: ffffff;
+	color: #faf8f8;
 	font-size: 24px;
 	font-family: "Deja Vu", monospace;
 	font weight: normal;
@@ -23,22 +20,32 @@ h2 {
 #slogan {
 	font-weight: bold;
 	font-style: italic;
+	text-align: center;
 }
 
 h3	{
 	font-size: 18px;
 	font-family: Arial;
-	color: ffffff;	
+	color: #faf8f8;	
 	font-weight: bold;
 }
-.highlight {
-	font-family: "Deja Vu", monospace;
-	font-weight: bold;
-}
+
  p {
 	font-family: Arial;
-	color: #ffffff;
-	font-size: 14px;
+	color: #faf8f8;
 	font-weight: normal;
+	font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+ }
+ .center {
+	 text-align: center;
  }
 
+ul {
+	font-family: Arial;
+	color: #faf8f8;
+	font-size: 18px;
+	text-align: left;
+	line-height: 1.5em;
+    margin: 2em;
