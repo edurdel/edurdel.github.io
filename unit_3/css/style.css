@@ -1,6 +1,8 @@
 body, html {
 	background: url("http://edurdel.github.io/unit_3/images/background_2.jpg");
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 h1 {
@@ -18,8 +20,8 @@ h2 {
 }
 
 #slogan {
+	font-size: 30px;
 	font-weight: bold;
-	font-style: italic;
 	text-align: center;
 }
 
