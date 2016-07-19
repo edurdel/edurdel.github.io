@@ -16,7 +16,7 @@ body, html {
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
-    padding: 20px;
+        padding: 20px;
 }
 
 h1 {
@@ -38,12 +38,13 @@ span {
 	font-family: 'PT Mono', serif; 
 	letter-spacing: .15em;
 }
+
 .nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
-    padding: 20px;
-    list-style:none;
-    text-align:center;
+        padding: 20px;
+        list-style:none;
+        text-align:center;
 	font-family: 'PT Mono', serif;
 }
 
@@ -67,7 +68,7 @@ span {
 section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-    padding: 20px;
+        padding: 20px;
 }
 
 #two_column {
@@ -79,7 +80,7 @@ section {
 #left {
 	background-color: #E582A2;
 	border: 1px black solid;
-    padding: 20px;
+        padding: 20px;
 	float: left;
 	width: 30%;
 }
@@ -87,7 +88,7 @@ section {
 #right {
 	background-color: #E55B88;
 	border: 1px black solid;
-    padding: 20px;
+        padding: 20px;
 	float: right;
 	width: 62%;
 }
@@ -103,14 +104,14 @@ h2 {
 	color: #313030;
 	font-weight: normal;
 	font-size: 14px;
-    line-height: 1.5em;
-    margin: 2em;
+        line-height: 1.5em;
+        margin: 2em;
  }
 
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
-    padding: 20px;
+        padding: 20px;
 	margin-top: 25px;
 	color: #313030;
 	font-family: 'PT Mono', serif;
