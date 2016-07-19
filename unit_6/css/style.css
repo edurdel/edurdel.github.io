@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=PT+Mono);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Stalemate);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+body, html {
+	background: url("http://edurdel.github.io/unit_4/images/site_background_2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+	
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	color: #313030;
+	font-family: 'PT Mono', serif;
+	font-size: 34px;
+}
+
+span {
+	color: #05b8c3;
+	font-family: 'Dancing Script', sans;
+	font-size: 36px;
+}
+
+#slogan {
+	font-size: 15px;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'PT Mono', serif; 
+	letter-spacing: .15em;
+}
+.nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+    list-style:none;
+    text-align:center;
+	font-family: 'PT Mono', serif;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+    padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+    padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+h2 {
+	color: #313030;
+	font-size: 22px;
+	font-family: 'Fjalla One', sans;
+}
+
+ p {
+	font-family: 'Libre Baskerville', serif;
+	color: #313030;
+	font-weight: normal;
+	font-size: 14px;
+    line-height: 1.5em;
+    margin: 2em;
+ }
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+	margin-top: 25px;
+	color: #313030;
+	font-family: 'PT Mono', serif;
+	text-align: center;
+}
