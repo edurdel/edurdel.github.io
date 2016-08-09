@@ -105,7 +105,6 @@ div.desc {
 	float: left;
 	width: 30%;
 	margin: .15em;
-	margin-top: 1px;
 }
 
 #sidebar {
@@ -115,7 +114,6 @@ div.desc {
 	float: left;
 	width: 30%;
 	margin: .15em;
-	margin-top: 1px;
 }
 
 .nav li{
@@ -187,6 +185,7 @@ footer {
 	float:none;
 	width: auto;
 	margin-top: 2em;
+	display: center;
 	}
 		
 	section {
@@ -214,10 +213,11 @@ footer {
 	float: none;
 	width: auto;
 	margin: 2em;
+	display: center;
 	}
 }
 
-@media only screen and (min-width: 480px) and (max-width: 780px) {
+@media only screen and (min-width: 480px) and (max-width: 844px) {
 	h1 {
 	text-align: center;
 	float: none;
@@ -233,20 +233,21 @@ footer {
 	
 	#slogan {
 	text-align: center;
-	font-size: 1.2em;
-	margin-bottom: 2em;
+	font-size: 1.4em;
+	margin-bottom: 1.5em;
 	}
 	
 	.img {
 	float:none;
 	width: auto;
-	margin-top: 1em;
+	margin-top: 1.5em;
 	}
 		
 	section {
 	float: none;
 	width: auto;
 	text-align: center;
+	font-size: 1.5em;
 	}
 	
 	nav {
@@ -254,15 +255,14 @@ footer {
 	margin: 0;
 	float: none;
 	width: auto;
-	text-size: 1em;
+	text-size: 1.5em;
 	}
 	
 	a {
 	float: none;
 	width: auto;	
 	text-align: center;
-	font-size: 1em;
-	margin-bottom: 1.2em;
+	font-size: 1.5em;
 	}
 	
 	img {
@@ -271,10 +271,10 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 780px) and (max-width: 1080px) {
+@media only screen and (min-width: 844px) and (max-width: 1260px) {
 	#content-one, #content-two, #sidebar {
-	float: none;
-	width: 90%;
-	margin: .5em;
-	padding: .5em;
+	width: auto;
+	margin: auto;
+	display: center;
 	}
+}
