@@ -1,0 +1,281 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=PT+Mono);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Stalemate);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+body, html {
+	background: #fff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-weight: normal;
+	font-size: 14px;
+    line-height: 1.5em;
+}
+	
+header {
+    padding: .5%;
+}
+
+h1 {
+	color: #313030;
+	font-family: 'PT Mono', serif;
+	font-size: 2.5em;
+}
+
+span {
+	color: #15d2fa;
+	font-family: 'Dancing Script', sans;
+	font-size: 1.5em;
+}
+
+#slogan {
+	font-size: 1.25em;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'PT Mono', serif; 
+	letter-spacing: .15em;
+}
+
+nav {
+	font-family: 'PT Mono', serif;
+	font-size: 1.1em;
+	background-color: #fff;
+	word-spacing: normal;
+}
+
+a {
+    background-color: #fff;
+	color: #000;
+	display: block;
+	float: right;
+	padding: 1%;
+	text-decoration: none;
+	word-spacing: normal;
+}
+
+a:hover {
+	background-color: #fadc15;
+	color: #000;
+	display: block;
+	word-spacing: normal;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+img {
+	display: center;
+	max-width: 100%;
+	text-align: center;
+}
+
+section {
+    padding: 1%;
+	display: block;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+}
+
+#content-one {
+	background-color: #fff;
+	border: 1px #fff solid;
+    padding: 5px 15px;
+	float: left;
+	width: 30%;
+	margin: .5em;
+}
+
+#content-two {
+	background-color: #fff;
+	border: 1px #fff solid;
+    padding: 5px 15px;
+	float: left;
+	width: 30%;
+	margin: .15em;
+}
+
+#sidebar {
+	background-color: #fff;
+	border: 1px #fff solid;
+    padding: 5px 15px;
+	float: left;
+	width: 30%;
+	margin: .15em;
+}
+
+.nav li{
+    display:inline;
+}
+
+h2 {
+	color: #313030;
+	font-size: 1.75em;
+	font-family: 'Fjalla One', sans;
+	line-height: 1.5em;
+    margin: .5em;
+}
+
+p {
+	font-family: 'Libre Baskerville', serif;
+	color: #313030;
+	font-weight: normal;
+	font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em;
+ }
+
+footer {
+	background-color: #979696;
+    padding: 15px;
+	margin-top: 15px;
+	color: #fff;
+	font-family: 'PT Mono', serif;
+	text-align: center;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+	body {
+	font-size: 9px;
+	}
+	
+	#content-one, #content-two, #sidebar {
+	float: none;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	}
+	
+	p {
+	float: none;
+	width: auto;
+	font-size: 1.5em;
+	}
+	
+	h1 {
+	text-align: center;
+	float: none;
+	width: auto;
+	}
+	
+	h2, h3 {
+	text-align: center;
+	font-size: 2.5em;
+	}
+	
+	#slogan {
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 2.5em;
+	}
+	
+	.img {
+	float:none;
+	width: auto;
+	margin-top: 2em;
+	display: center;
+	}
+		
+	section {
+	float: none;
+	width: auto;
+	text-align: center;
+	}
+	
+	nav {
+	text-align: center;
+	margin: 0;
+	float: none;
+	width: auto;
+	text-size: 2em;
+	}
+	
+	a {
+	float: none;
+	width: auto;	
+	text-align: center;
+	font-size: 2em;
+	}
+	
+	img {
+	float: none;
+	width: auto;
+	margin: 2em;
+	display: center;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 844px) {
+	h1 {
+	text-align: center;
+	float: none;
+	width: auto;
+	}
+	
+	#content-one, #content-two, #sidebar {
+	float: none;
+	width: auto;
+	margin: .2em;
+	padding: .5em;
+	}
+	
+	#slogan {
+	text-align: center;
+	font-size: 1.4em;
+	margin-bottom: 1.5em;
+	}
+	
+	.img {
+	float:none;
+	width: auto;
+	margin-top: 1.5em;
+	}
+		
+	section {
+	float: none;
+	width: auto;
+	text-align: center;
+	font-size: 1.5em;
+	}
+	
+	nav {
+	text-align: center;
+	margin: 0;
+	float: none;
+	width: auto;
+	text-size: 1.5em;
+	}
+	
+	a {
+	float: none;
+	width: auto;	
+	text-align: center;
+	font-size: 1.5em;
+	}
+	
+	img {
+	float: none;
+	width: auto;
+	}
+}
+
+@media only screen and (min-width: 844px) and (max-width: 1260px) {
+	#content-one, #content-two, #sidebar {
+	width: auto;
+	margin: auto;
+	display: center;
+	}
+}
+	
